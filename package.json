@@ -1,0 +1,16 @@
+{
+  "name": "hugi-startup-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "owl.carousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
+}

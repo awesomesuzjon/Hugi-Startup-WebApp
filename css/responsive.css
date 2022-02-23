@@ -1,0 +1,768 @@
+	/* togglebar css*/
+    @media all and (max-width: 991px) {
+ .offcanvas-header{ display:block; }
+
+	.mobile-offcanvas{
+		visibility: hidden;
+		transform:translateX(-100%);
+	    border-radius:0; 
+			display:block;
+	    position: fixed;
+	    top: 0; left:0;
+	    height: 100%;
+	    z-index: 1200;
+	    width:80%;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	    transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+	}
+
+	.mobile-offcanvas.show{
+		visibility: visible;
+    	transform: translateX(0);
+	}
+	.mobile-offcanvas .container, .mobile-offcanvas .container-fluid{
+		display: block;
+	}
+
+}	
+
+
+/* for mobile devices (max-width: 575.98px)*/
+
+@media (max-width: 575.98px) {
+
+	.navbar-brand img {
+    width: 4em;
+    margin-top: 30px;
+
+}
+
+	.nav-link {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    margin-right: 1em;
+}
+
+.navbar-nav .nav-line {
+    font-size: 15px;
+    font-weight: 100;
+    display: none;
+}
+
+.navcontainer .navbar .homebtn {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.navcontainer .navbtn {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 0;
+    letter-spacing: 0.01em;
+		margin-bottom: 10px;
+
+}
+
+.brandimages img {
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px;
+}
+
+.ourworks.marginclass {
+    margin-top: 3em;
+}
+
+.getintouchsection {
+    margin-bottom: 70px;
+}
+
+.activities-section .hugi-brief {
+    margin-bottom: 15px;
+}
+.navcontainer .navbtn:hover {
+ background: #3865f4;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid transparent;
+  padding: 12px 31px;
+  font-size: 14px;
+  font-weight: 600;
+		margin-left: 0;
+		margin-bottom: 10px;
+}
+
+.navcontainer .navbtn {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 0;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.homesection .homebody h1 {
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+}
+
+.homesection .homebtn {
+    background: #3865f4;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid transparent;
+    margin-top: 5px;
+    padding: 12px 24px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.homesection span {
+    color: #949a95;
+    font-size: 12px;
+}
+
+.homebody {
+    margin-right: 0;
+}
+
+.packagesection .package1 {
+    margin-bottom: 15px;
+}
+
+.usersection h1 {
+    margin-bottom: 42px;
+    margin-top: 0;
+}
+
+.ourworks h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 23px;
+}
+
+.homebtn {
+    margin: 18px 0;
+}
+
+.ourworks p {
+    margin: 0px;
+}
+
+.secondimgcontainer .vector {
+    display: none;
+}
+
+.getintouchsection .trycontainer {
+    padding: 25px 25px;
+}
+
+.about-landingsection img {
+  display: none;
+}
+
+.descsection .vector2 {
+  display: none;
+}
+.pricingcontainer img {
+  padding-left: 0;
+  width: 100%;
+}
+.descsection h1 {
+  font-size: 40px;
+  line-height: 47px;
+  width: 100%;
+}
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    
+	.navbar-brand img {
+    width: 4em;
+    margin-top: 30px;
+
+}
+
+	.nav-link {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    margin-right: 1em;
+}
+
+.navbar-nav .nav-line {
+    font-size: 15px;
+    font-weight: 100;
+    display: none;
+}
+
+.navcontainer .navbar .homebtn {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.navcontainer .navbtn {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 0;
+    letter-spacing: 0.01em;
+		margin-bottom: 10px;
+
+}
+
+.brandimages img {
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+
+.navcontainer .navbtn:hover {
+  padding: 12px 31px;
+  font-size: 14px;
+margin-left: 0;
+		margin-bottom: 10px;
+}
+
+.navcontainer .navbtn {
+    font-size: 16px;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.homesection .homebody h1 {
+    font-size: 3em;
+    line-height: 54px;
+    
+}
+
+.homesection .homebody p {
+    margin-top: 15px;
+}
+
+.homesection .homebtn {
+    background: #3865f4;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid transparent;
+    margin-top: 5px;
+    padding: 12px 24px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.homesection span {
+    color: #949a95;
+    font-size: 12px;
+}
+
+.homebody {
+    margin-right: 0;
+}
+
+.packagesection .package1 {
+    margin-bottom: 15px;
+}
+
+.usersection h1 {
+    margin-bottom: 42px;
+    margin-top: 0;
+}
+
+.ourworks h2{
+  line-height: 48px;
+}
+
+.homebtn {
+    margin: 18px 0;
+}
+
+.ourworks p {
+    margin: 0px;
+}
+
+.secondimgcontainer .vector {
+    display: none;
+}
+
+.getintouchsection .trycontainer {
+    padding: 25px 25px;
+}
+.about-landingsection img {
+  display: none;
+}
+
+.descsection .vector2 {
+  display: none;
+}
+.pricingcontainer img {
+  padding-left: 0;
+  width: 100%;
+}
+.descsection h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #120d26;
+  width: 100%;
+}
+
+.pricingcontainer h1 { 
+  font-size: 50px;
+  line-height: 50px;
+}
+.descsection {
+  margin-bottom: 4em;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  
+
+    	.navbar-brand img {
+    width: 4em;
+    margin-top: 30px;
+
+}
+
+	.nav-link {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    margin-right: 1em;
+}
+
+.navbar-nav .nav-line {
+    font-size: 15px;
+    font-weight: 100;
+    display: none;
+}
+
+.navcontainer .navbar .homebtn {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.navcontainer .navbtn {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 0;
+    letter-spacing: 0.01em;
+		margin-bottom: 10px;
+
+}
+
+.brandimages img {
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+
+.navcontainer .navbtn:hover {
+  padding: 12px 21px;
+  font-size: 14px;
+margin-left: 0;
+		margin-bottom: 10px;
+}
+
+.navcontainer .navbtn {
+    font-size: 16px;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.homesection .homebody h1 {
+    font-size: 3em;
+    line-height: 54px;
+    
+}
+
+.homesection .homebody p {
+    margin-top: 15px;
+}
+
+.homebtn {
+    padding: 10px 14px;
+}
+
+.homesection span {
+    color: #949a95;
+    font-size: 12px;
+}
+
+.homebody {
+    margin-right: 0;
+}
+
+.packagesection .package1 {
+    margin-bottom: 15px;
+}
+
+.packagesection .package1 h5 {
+    font-size: 25px;
+    line-height: 32px;
+}
+.usersection h1 {
+    margin-bottom: 42px;
+    margin-top: 0;
+}
+
+.ourworks h2 {
+        font-size: 30px;
+    line-height: 41px;
+    font-weight: bold;
+  
+}
+
+.homebtn {
+    margin: 18px 0;
+}
+
+.ourworks p {
+    margin: 0px;
+}
+
+
+.secondimgcontainer .vector {
+    display: none;
+}
+
+.getintouchsection .trycontainer {
+    padding: 25px 25px;
+}
+
+.imgcontainer1 .imgA {
+  margin-bottom: 78px;
+  width:100%;
+}
+.imgcontainer1 .imgB {
+  margin-left: 0;
+  width: 100%;
+}
+
+.imgcontainer2 .imgC {
+  margin: 70px 0 78px 0px;
+  width: 100%;
+}
+
+.imgcontainer2 .imgD{
+    width:100%;
+}
+
+.imgcontainer1 {
+  position: relative;
+  z-index: 0;
+}
+
+.imgcontainer1 img {
+  margin-left:0;
+  z-index:0;
+}
+.dotscontainer {
+  position: relative;
+  display: none;
+}
+
+.navtogglecontainer {
+  padding-left: 12px;
+}
+
+.brandsection p {
+    margin-bottom: 26px;
+}
+.brand-body p {
+    margin-bottom: 1.25em;
+}
+
+.pricingcontainer h1 {
+    margin-top: 15px;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.navbar-nav{
+    padding:12px;
+}
+
+.navbar-brand img{
+    padding:12px;
+}
+.about-landingsection h1 {
+  font-size: 50px;
+  line-height: 40px;
+}
+.about-landingsection img {
+  display: none;
+}
+
+.descsection .vector2 {
+  display: none;
+}
+.pricingcontainer img {
+  padding-left: 0;
+  width: 100%;
+}
+.descsection {
+  margin-bottom: 4em;
+}
+.descsection h1 {
+    font-size: 45px;
+    line-height: 56px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    	.navbar-brand img {
+    width: 4em;
+    margin-top: 30px;
+
+}
+
+	.nav-link {
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    margin-right: 1em;
+}
+
+.navbar-nav .nav-line {
+    font-size: 15px;
+    font-weight: 100;
+    display: none;
+}
+
+.navcontainer .navbar .homebtn {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.navcontainer .navbtn {
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 0;
+    letter-spacing: 0.01em;
+		margin-bottom: 10px;
+
+}
+
+.navcontainer .navbtn {
+    font-size: 16px;
+    padding: 11px 0;
+}
+.descsection .vector2 {
+    display: none;
+}
+
+.brandimages img {
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+
+.navcontainer .navbtn:hover {
+  padding: 12px 31px;
+  font-size: 14px;
+margin-left: 0;
+		margin-bottom: 10px;
+}
+
+.navcontainer .navbtn {
+    font-size: 16px;
+    padding: 14px 0;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.homesection .homebody h1 {
+    font-size: 3em;
+    line-height: 54px;
+    
+}
+
+.homesection .homebody p {
+    margin-top: 15px;
+}
+
+.homebtn {
+    padding: 10px 14px;
+}
+
+.homesection span {
+    color: #949a95;
+    font-size: 12px;
+}
+
+.homebody {
+    margin-right: 0;
+}
+
+.packagesection .package1 {
+    margin-bottom: 15px;
+}
+
+.packagesection .package1 h5 {
+    font-size: 25px;
+    line-height: 32px;
+}
+.usersection h1 {
+    margin-bottom: 42px;
+    margin-top: 0;
+}
+
+.ourworks h2 {
+        font-size: 30px;
+    line-height: 41px;
+    font-weight: bold;
+  
+}
+
+.homebtn {
+    margin: 18px 0;
+}
+
+.ourworks p {
+    margin: 0px;
+}
+
+.secondimgcontainer .vector {
+    display: none;
+}
+
+.getintouchsection .trycontainer {
+    padding: 25px 25px;
+}
+
+.imgcontainer1 .imgA {
+  margin-bottom: 78px;
+  width:100%;
+}
+.imgcontainer1 .imgB {
+  margin-left: 0;
+  width: 100%;
+}
+
+.imgcontainer2 .imgC {
+  margin: 70px 0 78px 0px;
+  width: 100%;
+}
+
+.imgcontainer2 .imgD{
+    width:100%;
+}
+
+.imgcontainer1 {
+  position: relative;
+  z-index: 0;
+}
+
+.imgcontainer1 img {
+  margin-left:0;
+  z-index:0;
+}
+.dotscontainer {
+  position: relative;
+  display: none;
+}
+
+.navtogglecontainer {
+  padding-left: 12px;
+}
+
+.brandsection p {
+    margin-bottom: 26px;
+}
+.pricingcontainer h1 {
+    margin-top: 15px;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.navbar-nav{
+    padding:12px;
+}
+
+.navbar-brand img{
+    padding:12px;
+}
+.about-landingsection h1 {
+  font-size: 50px;
+  line-height: 40px;
+}
+.about-landingsection img {
+  display: none;
+}
+
+.descsection .vector2 {
+  display: none;
+}
+.pricingcontainer img {
+  padding-left: 0;
+  width: 100%;
+}
+.descsection {
+  margin-bottom: 4em;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .ourworks{
+        overflow-x: hidden;
+    }
+
+.ourworks h2 {
+    
+        font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+ 
+}
+
+.brandimages img {
+  width: 75%;
+}
+}
